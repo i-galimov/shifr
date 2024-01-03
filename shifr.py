@@ -52,7 +52,6 @@ if os.path.exists(message):
     base64_message = encode_base64(text)
 else:
     base64_message = encode_base64(message)
-    reversed_base64_message = base64_message[::-1]
     
 reversed_base64_message = base64_message[::-1]
 middle_index = len(reversed_base64_message) // 2
